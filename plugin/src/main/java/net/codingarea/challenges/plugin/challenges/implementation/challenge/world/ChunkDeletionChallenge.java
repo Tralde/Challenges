@@ -1,6 +1,6 @@
 package net.codingarea.challenges.plugin.challenges.implementation.challenge.world;
 
-import de.dytanic.cloudnet.driver.event.EventListener;
+import org.bukkit.event.EventHandler;
 import java.util.HashMap;
 import net.anweisen.utilities.common.collection.pair.Tuple;
 import net.codingarea.challenges.plugin.challenges.type.abstraction.SettingModifier;
