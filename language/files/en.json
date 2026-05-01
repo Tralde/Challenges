@@ -259,13 +259,6 @@
 	"force-damage-battle-leaderboard": "§8➜ §7Force Damage Battle Leaderboard",
 	"force-height-battle-leaderboard": "§8➜ §7Force Height Battle Leaderboard",
 	"force-position-battle-leaderboard": "§8➜ §7Force Position Battle Leaderboard",
-	"category-multiplayer_randomizer": "Per-Player Randomizer",
-	"item-player-block-randomizer-challenge": "Per-Player Block Randomizer",
-	"item-player-chunk-effect-challenge": "Per-Player Chunk Effects",
-	"item-player-random-item-challenge": "Per-Player Random Item",
-	"item-player-random-dropping-challenge": "Per-Player Item Drop",
-	"item-player-random-removing-challenge": "Per-Player Item Removal",
-	"item-player-random-swapping-challenge": "Per-Player Item Swap",
 	"random-event-speed": [
 		"Sonic? Is it you?",
 		"Woahh! That's fast"
@@ -496,6 +489,33 @@
 		" ",
 		"The player with the *most points* wins."
 	],
+	
+		"category-multiplayer_randomizer": "Per-Player Randomizer",
+	"item-player-block-randomizer-challenge": [
+	  "Per-Player Block Randomizer",
+	  "Every player gets individual block drops."
+	],
+	"item-player-chunk-effect-challenge": [
+	  "Per-Player Chunk Effects",
+	  "Every player gets an individual effect per chunk."
+	],
+	"item-player-random-item-challenge": [
+	  "Per-Player Random Item",
+	  "Every player receives an individual random item."
+	],
+	"item-player-random-dropping-challenge": [
+	  "Per-Player Item Drop",
+	  "Every player drops an individual random inventory item."
+	],
+	"item-player-random-removing-challenge": [
+	  "Per-Player Item Removal",
+	  "Every player loses an individual random inventory item."
+	],
+	"item-player-random-swapping-challenge": [
+	  "Per-Player Item Swap",
+	  "Every player has individual inventory slots swapped."
+	],
+	
 	"item-time-seconds-description": "§8» §7Time: §e{0} §7seconds",
 	"item-time-seconds-range-description": "§8» §7Time: §e{0}-{1} §7Sekunden",
 	"item-time-minutes-description": "§8» §7Time: §e{0} §7minutes",
