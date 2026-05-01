@@ -40,7 +40,7 @@
         </dependency>
 
         <!-- Cloud Dependencies -->
-        <dependency>
+        <!--<dependency>
             <groupId>de.dytanic.cloudnet</groupId>
             <artifactId>cloudnet-driver</artifactId>
             <version>3.3.0-RELEASE</version>
@@ -51,7 +51,7 @@
             <artifactId>cloudnet-bridge</artifactId>
             <version>3.3.0-RELEASE</version>
             <scope>provided</scope>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>de.dytanic.cloudnet</groupId>
             <artifactId>cloudnet-api-bridge</artifactId>
