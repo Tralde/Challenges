@@ -259,13 +259,6 @@
 	"force-damage-battle-leaderboard": "§8➜ §7Force Damage Battle Leaderboard",
 	"force-height-battle-leaderboard": "§8➜ §7Force Height Battle Leaderboard",
 	"force-position-battle-leaderboard": "§8➜ §7Force Position Battle Leaderboard",
-	"category-multiplayer_randomizer": "Pro-Spieler-Zufall",
-	"item-player-block-randomizer-challenge": "Pro-Spieler Block-Randomizer",
-	"item-player-chunk-effect-challenge": "Pro-Spieler Chunk-Effekte",
-	"item-player-random-item-challenge": "Pro-Spieler Zufallsitem",
-	"item-player-random-dropping-challenge": "Pro-Spieler Item-Drop",
-	"item-player-random-removing-challenge": "Pro-Spieler Item-Entfernung",
-	"item-player-random-swapping-challenge": "Pro-Spieler Item-Tausch",
 	"random-event-speed": [
 		"Sonic? Bist du es?",
 		"Woahh! Das ist aber schnell"
@@ -501,6 +494,33 @@
 		" ",
 		"Der Spieler mit den *meisten Punkten* gewinnt."
 	],
+	"category-multiplayer_randomizer": "Pro-Spieler-Zufall",
+	
+	"item-player-block-randomizer-challenge": [
+	  "Pro-Spieler Block-Randomizer",
+	  "Jeder Spieler erhält eigene Blockdrops."
+	],
+	"item-player-chunk-effect-challenge": [
+	  "Pro-Spieler Chunk-Effekte",
+	  "Jeder Spieler erhält pro Chunk einen eigenen Effekt."
+	],
+	"item-player-random-item-challenge": [
+	  "Pro-Spieler Zufallsitem",
+	  "Jeder Spieler erhält ein eigenes zufälliges Item."
+	],
+	"item-player-random-dropping-challenge": [
+	  "Pro-Spieler Item-Drop",
+	  "Jedem Spieler fällt ein eigenes zufälliges Item aus dem Inventar."
+	],
+	"item-player-random-removing-challenge": [
+	  "Pro-Spieler Item-Entfernung",
+	  "Jedem Spieler wird ein eigenes zufälliges Item entfernt."
+	],
+	"item-player-random-swapping-challenge": [
+	  "Pro-Spieler Item-Tausch",
+	  "Bei jedem Spieler werden eigene Inventarplätze getauscht."
+	],
+	
 	"item-time-seconds-description": "§8» §7Zeit: §e{0} §7Sekunden",
 	"item-time-seconds-range-description": "§8» §7Zeit: §e{0}-{1} §7Sekunden",
 	"item-time-minutes-description": "§8» §7Zeit: §e{0} §7Minuten",
