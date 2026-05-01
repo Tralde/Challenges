@@ -7,7 +7,6 @@ import net.anweisen.utilities.common.config.Document;
 import net.codingarea.challenges.plugin.ChallengeAPI;
 import net.codingarea.challenges.plugin.Challenges;
 import net.codingarea.challenges.plugin.management.cloud.support.CloudNet2Support;
-import net.codingarea.challenges.plugin.management.cloud.support.CloudNet3Support;
 import net.codingarea.challenges.plugin.management.scheduler.task.TimerTask;
 import net.codingarea.challenges.plugin.management.scheduler.timer.TimerStatus;
 import org.bukkit.entity.Player;
@@ -64,11 +63,11 @@ public final class CloudSupportManager implements Listener {
 		switch (name) {
 			default:
 				return null;
-			case "cloudnet":
-			case "cloudnet3":
-				return new CloudNet3Support();
-			case "cloudnet2":
-				return new CloudNet2Support();
+				case "cloudnet":
+		case "cloudnet3":
+		    return null;
+		case "cloudnet2":
+		    return new CloudNet2Support();
 		}
 	}
 
