@@ -100,6 +100,9 @@ import net.codingarea.challenges.plugin.utils.item.ItemBuilder.PotionBuilder;
 import net.codingarea.challenges.plugin.utils.misc.ArmorUtils;
 import org.bukkit.Material;
 import org.bukkit.event.entity.EntityDamageEvent.DamageCause;
+import net.codingarea.challenges.plugin.challenges.implementation.challenge.playerrandomizer.PlayerChunkRandomEffectChallenge;
+import net.codingarea.challenges.plugin.challenges.implementation.challenge.playerrandomizer.PlayerRandomItemChallenge;
+import net.codingarea.challenges.plugin.challenges.implementation.challenge.playerrandomizer.PlayerBlockRandomizerChallenge;
 
 /**
  * This class loads all challenges of this plugin.
@@ -272,6 +275,11 @@ public final class ChallengeLoader extends ModuleChallengeLoader {
 		register(EnderGamesChallenge.class);
 		register(InvertHealthChallenge.class);
 		register(NoSharedAdvancementsChallenge.class);
+
+		// Player Randomizer
+		register(PlayerChunkRandomEffectChallenge.class);
+		register(PlayerRandomItemChallenge.class);
+		register(PlayerBlockRandomizerChallenge.class);
 
 
 		// Goal
