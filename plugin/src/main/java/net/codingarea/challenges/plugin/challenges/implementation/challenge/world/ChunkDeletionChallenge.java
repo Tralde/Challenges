@@ -87,7 +87,7 @@ public class ChunkDeletionChallenge extends SettingModifier {
     bossbar.update();
   }
 
-  @EventListener
+  @EventHandler
   public void onPlayerMove(PlayerMoveEvent event) {
     if (event.getTo() == null || !checkIfAllowed(event.getPlayer())) {
       return;
