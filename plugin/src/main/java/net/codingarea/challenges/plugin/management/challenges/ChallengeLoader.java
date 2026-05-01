@@ -100,9 +100,12 @@ import net.codingarea.challenges.plugin.utils.item.ItemBuilder.PotionBuilder;
 import net.codingarea.challenges.plugin.utils.misc.ArmorUtils;
 import org.bukkit.Material;
 import org.bukkit.event.entity.EntityDamageEvent.DamageCause;
-import net.codingarea.challenges.plugin.challenges.implementation.challenge.playerrandomizer.PlayerChunkRandomEffectChallenge;
-import net.codingarea.challenges.plugin.challenges.implementation.challenge.playerrandomizer.PlayerRandomItemChallenge;
-import net.codingarea.challenges.plugin.challenges.implementation.challenge.playerrandomizer.PlayerBlockRandomizerChallenge;
+import net.codingarea.challenges.plugin.challenges.implementation.challenge.multiplayer.PlayerBlockRandomizerChallenge;
+import net.codingarea.challenges.plugin.challenges.implementation.challenge.multiplayer.PlayerChunkRandomEffectChallenge;
+import net.codingarea.challenges.plugin.challenges.implementation.challenge.multiplayer.PlayerRandomItemChallenge;
+import net.codingarea.challenges.plugin.challenges.implementation.challenge.multiplayer.PlayerRandomItemDroppingChallenge;
+import net.codingarea.challenges.plugin.challenges.implementation.challenge.multiplayer.PlayerRandomItemRemovingChallenge;
+import net.codingarea.challenges.plugin.challenges.implementation.challenge.multiplayer.PlayerRandomItemSwappingChallenge;
 
 /**
  * This class loads all challenges of this plugin.
@@ -276,10 +279,13 @@ public final class ChallengeLoader extends ModuleChallengeLoader {
 		register(InvertHealthChallenge.class);
 		register(NoSharedAdvancementsChallenge.class);
 
-		// Player Randomizer
+		// Multiplayer Randomizer
+		register(PlayerBlockRandomizerChallenge.class);
 		register(PlayerChunkRandomEffectChallenge.class);
 		register(PlayerRandomItemChallenge.class);
-		register(PlayerBlockRandomizerChallenge.class);
+		register(PlayerRandomItemDroppingChallenge.class);
+		register(PlayerRandomItemRemovingChallenge.class);
+		register(PlayerRandomItemSwappingChallenge.class);
 
 
 		// Goal
