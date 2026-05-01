@@ -259,6 +259,13 @@
 	"force-damage-battle-leaderboard": "§8➜ §7Force Damage Battle Leaderboard",
 	"force-height-battle-leaderboard": "§8➜ §7Force Height Battle Leaderboard",
 	"force-position-battle-leaderboard": "§8➜ §7Force Position Battle Leaderboard",
+	"category-multiplayer_randomizer": "Pro-Spieler-Zufall",
+	"item-player-block-randomizer-challenge": "Pro-Spieler Block-Randomizer",
+	"item-player-chunk-effect-challenge": "Pro-Spieler Chunk-Effekte",
+	"item-player-random-item-challenge": "Pro-Spieler Zufallsitem",
+	"item-player-random-dropping-challenge": "Pro-Spieler Item-Drop",
+	"item-player-random-removing-challenge": "Pro-Spieler Item-Entfernung",
+	"item-player-random-swapping-challenge": "Pro-Spieler Item-Tausch"
 	"random-event-speed": [
 		"Sonic? Bist du es?",
 		"Woahh! Das ist aber schnell"
