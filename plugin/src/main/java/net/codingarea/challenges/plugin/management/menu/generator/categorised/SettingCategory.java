@@ -25,6 +25,7 @@ public class SettingCategory {
 	public static final SettingCategory MOVEMENT = new SettingCategory(8, Material.RABBIT_FOOT, () -> Message.forName("category-movement"));
 	public static final SettingCategory LIMITED_TIME = new SettingCategory(9, Material.CLOCK, () -> Message.forName("category-limited_time"));
 	public static final SettingCategory EXTRA_WORLD = new SettingCategory(10, Material.GRASS_BLOCK, () -> Message.forName("category-extra_world"));
+	public static final SettingCategory MULTIPLAYER_RANDOMIZER = new SettingCategory(  11,  Material.PLAYER_HEAD, () -> Message.forName("category-multiplayer_randomizer") );
 
 	//Goals
 	public static final SettingCategory MISC_GOAL = new SettingCategory(99, Material.MINECART, () -> Message.forName("category-misc_goal"));
